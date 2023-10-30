@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 1.5rem "Roboto", sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+
+    background-color: #333;
+}
+
+nav {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 10px 0; /* Ruang di sekitar isi elemen <nav> */
+}
+
+nav ul {
+    list-style: none; /* Menghilangkan bullet points dari daftar */
+    text-align: center; /* Untuk membuat item daftar berada di tengah */
+  }
+
+  /* Gaya untuk elemen <li> */
+nav li {
+    margin: 0 15px; /* Jarak antara item daftar */
+  }
+  
+  /* Gaya untuk tautan (<a>) dalam elemen <li> */
+  nav a {
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    color: #fff; /* Warna teks tautan */
+    font-weight: bold; /* Ketebalan teks tautan */
+  }
+  
+  /* Gaya tautan saat dihover */
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+li {
+    display: inline-block;  /* Untuk menyusun item daftar secara horizontal */
+}
+
+h2 span {
+    display: block;
+}
+
+.tampilan-awal {
+    margin-top: 4rem;
+    margin-left: 8rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+#myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1; /* Mengatur z-index agar video berada di lapisan belakang */
+  }
+
+  .perkenalan {
+    color: whitesmoke;
+    padding: 1rem;
+    margin-top: 10rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .perkenalan h2{
+    margin-top: 3rem;
+  }
+
+  .perkenalan h3 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .gabung a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    
+  }
+
+  .gabung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    padding: 0.5rem;
+ 
+    margin: 0 auto;
+    background-color: green;
+    border-radius: 20px;
+    width: 100px;
+
+  }
+
+  .background2 {
+    background-color: rgb(16, 24, 32);
+  }
+
+  .belihp {
+    margin-top: 1rem;
+    padding: 4rem;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .belihp img {
+    margin: 0 1rem;
+  }
+
+  .belihp img:hover{
+    filter:brightness(70%);
+
+}
+
+.belihp figcaption {
+    color: whitesmoke;
+    text-align: center;
+}
